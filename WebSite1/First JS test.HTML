@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>
+        First JS Test
+    </title>
+    <script>
+
+        function show(value1, value2) {
+            alert(value1 + "," + value2);
+        }
+
+        window.onload = function () {
+            var i = 10;
+            var btn = document.getElementById("btn");
+            btn.onclick = function () {
+                show(certid.value, i);
+                i--;
+            };
+        }
+    </script>
+    <style type="text/css">
+        div {
+            width :100px;
+            height:100px;
+            background:#000000;
+            border:5px solid #00ff90;
+        }
+    </style>
+
+</head>
+
+<body>
+    <input id="certid" type="text" value="123456">
+    <input id="btn" type="button" value="button" onclick="">
+    <div id="div1">
+
+    </div>
+</body>
+</html>
